@@ -5,14 +5,14 @@
    Case Problem 4
 
    Map Finds For You orders
-   Author: 
-   Date:   
+   Author:  amalie von behren
+   Date:     06/16/24
 
    Filename:          orders.xml
    Supporting Files:  orders.xsd 
 -->
 
-<customers>
+<customers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="orderstxt.xsd">
    <customer custID="cust201">
       <name title="Mr.">John Michael</name>
       <address>
